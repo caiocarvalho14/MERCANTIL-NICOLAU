@@ -87,7 +87,7 @@ a {
         font-size: 500%;
     }
 
-    background-image:linear-gradient(to bottom, #ff000011, #ff000058),
+    background-image:linear-gradient(to bottom, #ff000015, #ff000058),
     url(png/background2.png);
     text-align: center;
 
@@ -115,7 +115,7 @@ a {
 }
 
 .catalog {
-    background: linear-gradient(to bottom, #cf0000ad, #6f0000, #450000);
+    background: linear-gradient(to bottom, #cf0000ad, #6f0000);
     color: white;
     text-align: center;
 
@@ -165,8 +165,8 @@ a {
 .rodape {
     font-size: 50%;
     text-align: center;
-    color: #2d0101;
-    background-color: #450000;
+    color: #ffffff4b;
+    background-color: #6f0000;
 
     h1 {
         padding-bottom: 2%;
