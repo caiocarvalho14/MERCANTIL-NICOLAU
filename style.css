@@ -88,7 +88,7 @@ a {
     }
 
     background-image:linear-gradient(to bottom, #ff000011, #ff000058),
-    url(/png/background2.png);
+    url(png/background2.png);
     text-align: center;
 
     hr {
