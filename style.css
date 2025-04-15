@@ -115,7 +115,9 @@ a {
 }
 
 .catalog {
-    background: linear-gradient(to bottom, #cf0000ad, #6f0000);
+    background-image:linear-gradient(to bottom, #ff000000, #400000bf), url(/MERCANTIL-NICOLAU/png/attachment.png);
+    background-attachment: fixed;
+    /* background: linear-gradient(to bottom, #cf0000ad, #6f0000); */
     color: white;
     text-align: center;
 
