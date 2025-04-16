@@ -9,8 +9,7 @@
         width: 100vw;
         overflow-x: hidden;
 
-        h1,
-        div {
+        h1,div {
             cursor: default;
         }
     }
@@ -190,7 +189,7 @@
     }
 
     .bemvindo {
-        position: sticky;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
