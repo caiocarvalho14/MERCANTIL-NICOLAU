@@ -1,0 +1,16 @@
+.card-badge{
+    font-weight: 1000;
+    font-size: 80px;
+}
+.cards{
+    color: rgb(255, 196, 0);
+    .h5{
+        color: yellow;
+    }
+    transition: 0.09s ease-in-out;
+    min-height: 350px;
+}
+.cards:hover{
+    transition: 0.09s ease-in-out;
+    transform: translateY(-15px);
+}
