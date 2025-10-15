@@ -23,7 +23,7 @@ function FormalCards({
                     <div>
                         <Card.Title className='fw-bold'>{titulo}</Card.Title>
                         {emojis}
-                        <Card.Text>
+                        <Card.Text className='px-4'>
                             {descricao}
                             {(descricao) ? (<br className='mb-4'></br>) : ''}
 
@@ -33,7 +33,6 @@ function FormalCards({
 
                                 )
                             }) : ''}
-
                             <div className='text-center p-2 '>
                                 {(lista) ? lista.map(l => {
                                     return (

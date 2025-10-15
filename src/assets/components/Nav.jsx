@@ -3,13 +3,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import NfLogo from '../png/NFlogowback2.svg'
-
 function NavBar() {
   return (
     <Navbar expand="lg" className="d-flex flex-column p-0 fixed-top bg-white shadow-lg">
       <div className='p-1 d-flex justify-content-between w-100 bg-danger text-warning'>
         <div>
-          <a href=""><i className="bi bi-telephone-fill"></i> (86) 99477-9375</a>
+          <a href="https://wa.me/86994779375"><i className="bi bi-telephone-fill"></i> (86) 99477-9375</a>
         </div>
         O barato é aqui!
       </div>
@@ -29,5 +28,4 @@ function NavBar() {
     </Navbar>
   );
 }
-
 export default NavBar;

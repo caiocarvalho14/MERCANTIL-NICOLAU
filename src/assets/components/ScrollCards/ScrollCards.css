@@ -14,7 +14,7 @@
     }
   }
   img {
-    width: 70%;
+    border-radius: 10%;
     height: 120px;
     object-fit: contain;
   }

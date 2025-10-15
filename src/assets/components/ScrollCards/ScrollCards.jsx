@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./ScrollCards.css";
 
-function ScrollCards({ titulo, preco , imagem = 'https://fortatacadista.vteximg.com.br/arquivos/ids/157864-800-800/Arroz-Branco-Catarinao-1kg.jpg?v=637400108666630000' }) {
+function ScrollCards({ titulo, preco = '' , imagem = 'https://fortatacadista.vteximg.com.br/arquivos/ids/157864-800-800/Arroz-Branco-Catarinao-1kg.jpg?v=637400108666630000' }) {
     let link = `https://wa.me/86994779375?text=Olá,%20gostaria%20de%20falar%20sobre:%20${titulo}`
   return (
     <div className="">
@@ -10,8 +10,7 @@ function ScrollCards({ titulo, preco , imagem = 'https://fortatacadista.vteximg.
         <Card.Body className="d-flex flex-column justify-content-between align-items-center h-100">
           <Card.Title className="text-center w-100">{titulo}</Card.Title>
           <img
-            src={imagem}
-            alt=""
+            src={`images/${imagem}`}
           />
           <Card.Text>
             R$ {preco.toFixed(2).replace(".", ",")}
