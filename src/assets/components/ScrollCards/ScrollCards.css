@@ -1,0 +1,21 @@
+.scroll-card-badge {
+  font-weight: 1000;
+  font-size: 60px;
+}
+.scroll-cards {
+  transition: 0.09s ease-in-out;
+  min-height: 250px;
+  width: 220px;
+  @media (max-width: 720px) {
+    min-height: 200px;
+    width: 150px;
+    a {
+      font-size: 12px;
+    }
+  }
+  img {
+    width: 70%;
+    height: 120px;
+    object-fit: contain;
+  }
+}

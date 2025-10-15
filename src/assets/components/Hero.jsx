@@ -10,7 +10,7 @@ import Ecommerce3m from '../png/ecommerce3m.png'
 import Carousel from 'react-bootstrap/Carousel';
 function Hero() {
   return (
-    <div style={{ paddingTop: '94px' }} id='inicio'>
+    <div style={{ paddingTop: '62px' }} id='inicio'>
       <Carousel>
         <Carousel.Item interval={3000}>
           <img style={{ width: '100%' }} className='d-none d-md-block' src={Ecommerce1} alt="" />
