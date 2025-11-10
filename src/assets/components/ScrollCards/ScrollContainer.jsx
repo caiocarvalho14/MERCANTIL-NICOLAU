@@ -6,7 +6,7 @@ function ScrollContainer({ data = [], secao = "Seção" , icone = ''}) {
       <h2 className="text-start"><i className={`bi bi-${icone}`}></i> {secao}:</h2>
       <div className="d-flex overflow-x-auto gap-4 mb-4 py-3">
         {data.map((i, index) => (
-          <ScrollCards key={index} titulo={i.titulo} preco={i.preco} imagem={i.imagem} />
+          <ScrollCards key={index} titulo={i.titulo} preco={i.preco} imagem={i.imagem} contain={i.contain} />
         ))}
       </div>
     </div>

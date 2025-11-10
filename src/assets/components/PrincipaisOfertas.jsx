@@ -6,12 +6,14 @@ const essenciais = [
     preco: 110,
     imagem:
       "gas.png",
+    contain: true
   },
   {
     titulo: "Água 20l",
     preco: 7.5,
     imagem:
       "agua-mineral.png",
+    contain: true
   },
 ]
 

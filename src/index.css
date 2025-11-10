@@ -2,3 +2,6 @@ a{
     color: inherit !important;
     text-decoration: none !important;
 }
+#contato{
+    scroll-margin-top: 94px; 
+}

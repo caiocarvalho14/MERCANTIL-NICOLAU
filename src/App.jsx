@@ -14,6 +14,7 @@ import Contato from './assets/components/Contato';
 import Footer from './assets/components/Footer';
 import PrincipaisOfertas from './assets/components/PrincipaisOfertas';
 import WButton from './assets/components/WButton';
+import Sobrenos from './assets/components/sobrenos';
 
 function App() {
   return (
